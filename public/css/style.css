@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: auto;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bgGrad {
+    background: linear-gradient(150deg, #8b008b 15%, #9f53f5 70%, #c600ee 94%);
+}
+
+.width-large {
+    min-width: 700px;
+}
+
+@media only screen and (max-width: 768px) {
+    .width-large {
+        min-width: 80%;
+        max-width: 80%;
+    }
+}
+
+.resultArea {
+    border-radius: 5px;
+    background: #f1f1f1;
+    text-align: start;
+    padding: 20px;
+}
+
+.cancelPadding {
+    padding: 0 !important;
+}
+
+.mainList {
+    list-style: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+.mainList li {
+    padding: 10px;
+    margin: 10px;
+    background: #f1f1f1;
+}
